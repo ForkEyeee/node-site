@@ -1,6 +1,6 @@
 # Node Website
 
-This project serves static HTML pages using a Node.js server by serving pages based on URL endpoints.
+This project serves static HTML pages using a Node.js server based on URL endpoints.
 
 ## Setup and Installation
 
