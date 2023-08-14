@@ -3,10 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/index.css" />
     <title>Informational Site</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/index.ts"></script>
+    <div class="container">
+      <div class="header">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/contact-me">Contact Me</a>
+      </div>
+      <div class="main-content">
+        <h1>Welcome to Our Node Site!</h1>
+        <p>
+          This is a simple node site serving static pages. Navigate using the
+          links above.
+        </p>
+      </div>
+      <div class="footer">
+        <p>&copy; 2023 Simple Node Website</p>
+      </div>
+    </div>
   </body>
 </html>
