@@ -33,7 +33,7 @@ Ensure you have [Node.js](https://nodejs.org/en/download/) installed on your mac
 4. To start the server using nodemon (which will automatically restart your server on file changes), run:
 
    ```bash
-   nodemon index.js
+   nodemon src/index.js localhost 8080
    ```
 
 Once the server starts, you can open your browser and navigate to `http://localhost:8080` to access the main page. Use the endpoints `/about` and `/contact-me` to navigate to other pages. Any unlisted endpoint will lead you to the `404.html` page.
